@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find kobuki_node)/launch/minimal.launch" output="screen"/>
+    <include file="$(find kobuki_keyop)/launch/keyop.launch"/>
+</launch>
